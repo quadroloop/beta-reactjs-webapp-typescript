@@ -1,5 +1,5 @@
 import Toastify from "toastify-js";
-
+import nprogress from "nprogress";
 // For generating Unique IDs
 export const guid = () => {
   return "xxxxxxxx-xxxx-4xxx-yxxx-xxxxxxxxxxxx".replace(/[xy]/g, function (c) {
@@ -22,4 +22,12 @@ export const Toast = (message, url) => {
     stopOnFocus: true, // Prevents dismissing of toast on hover
     onClick: function () {}, // Callback after click
   }).showToast();
+};
+
+export const startPageLoad = () => {
+  nprogress.start();
+};
+
+export const stopPageLoad = () => {
+  nprogress.done();
 };
