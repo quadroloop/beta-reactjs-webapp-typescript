@@ -9,6 +9,7 @@
 - axios - Promise-based HTTP Client
 - node-sass - SaSS for NodeJS
 - fuse.js - JavaScript Fuzzy Search Library
+- nprogress - Page Loading indicator library
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
