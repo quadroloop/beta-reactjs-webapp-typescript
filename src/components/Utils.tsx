@@ -9,7 +9,7 @@ export const guid = () => {
   });
 };
 
-export const Toast = (message, url) => {
+export const Toast = (message) => {
   Toastify({
     text: message,
     duration: 2000,

@@ -8,7 +8,7 @@ function App() {
     startPageLoad();
     setTimeout(() => {
       stopPageLoad();
-      Toast("Welcome to beta", "");
+      Toast("Welcome to beta");
     }, 5000);
   }, []);
 
